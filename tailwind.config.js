@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         jomhuria: ['Jomhuria', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
+        reemkufi: ['Reem Kufi', 'sans-serif'],
       },
       colors:{
         bluesea: '#021526',
