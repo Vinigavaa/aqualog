@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <main className="flex-1 px-4 md:px-14">
       <section className="container mx-auto py-8 md:py-12">
-        <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="flex flex-col md:flex-row items-center justify-between ">
           {/* Conteúdo de Texto */}
           <div className="w-full md:w-1/2 md:pr-12 mt-4 md:mt-8">
             <h1 className="text-4xl md:text-6xl font-reemkufi font-bold text-white mb-6 md:mb-10">

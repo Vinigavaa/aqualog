@@ -78,7 +78,7 @@ const About = () => {
                 transition={{ delay: 0.6 }}
                 className="w-full max-w-6xl mx-auto"
             >
-                <div className="bg-gray-800/50 border border-cyan/50 rounded-xl p-8">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8">
                     <div className="flex flex-col md:flex-row items-center gap-8">
                         <div className="flex-1 space-y-6">
                             <motion.h2 
@@ -124,7 +124,7 @@ const About = () => {
                     <motion.div
                         key={index}
                         whileHover={{ scale: 1.05 }}
-                        className="p-6 rounded-lg bg-gray-800/30 border border-cyan/20 transition-all duration-300 hover:border-cyan/40 hover:bg-gray-800/40"
+                        className="p-6 bg-white/10 backdrop-blur-sm rounded-xl hover:border-cyan/40 hover:bg-gray-800/40"
                     >
                         <h3 className="text-3xl font-bold text-cyan">{stat.value}</h3>
                         <p className="text-gray-300">{stat.label}</p>
