@@ -79,8 +79,7 @@ const Navigation = () => {
           <ul className="hidden md:flex items-center text-white font-poppins font-semibold">
             <NavigationLink to="/" onClick={closeMenu}>Home</NavigationLink>
             <NavigationLink to="/sobre" onClick={closeMenu}>Sobre Nós</NavigationLink>
-            <NavigationLink to="/sos" onClick={closeMenu}>S.O.S</NavigationLink>
-            <NavigationLink to="/ajuda" onClick={closeMenu} className="mr-12">Ajuda</NavigationLink>
+            <NavigationLink to="/sos" className='mr-8' onClick={closeMenu}>S.O.S</NavigationLink>
           </ul>
 
           {/* Menu Mobile */}
@@ -104,11 +103,6 @@ const Navigation = () => {
                   <li className="w-full border-b border-cyan/20">
                     <Link to="/sos" onClick={closeMenu} className="py-3 px-6 block w-full hover:bg-cyan/20">
                       S.O.S
-                    </Link>
-                  </li>
-                  <li className="w-full">
-                    <Link to="/ajuda" onClick={closeMenu} className="py-3 px-6 block w-full hover:bg-cyan/20">
-                      Ajuda
                     </Link>
                   </li>
                 </ul>
